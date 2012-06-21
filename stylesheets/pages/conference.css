@@ -1,0 +1,143 @@
+.navbar.subnav {
+}
+
+  .navbar.subnav-fixed {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1020;
+  }
+
+  .navbar.subnav .navbar-inner {
+    min-height: 30px;
+    background: #dddddd;
+    background: -moz-linear-gradient(top,  #dddddd 0%, #cccccc 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dddddd), color-stop(100%,#cccccc));
+    background: -webkit-linear-gradient(top,  #dddddd 0%,#cccccc 100%);
+    background: -o-linear-gradient(top,  #dddddd 0%,#cccccc 100%);
+    background: -ms-linear-gradient(top,  #dddddd 0%,#cccccc 100%);
+    background: linear-gradient(top,  #dddddd 0%,#cccccc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dddddd', endColorstr='#cccccc',GradientType=0 );
+  }
+
+    .navbar.subnav .nav > li > a {
+      color: #555;
+      font-size: 13px;
+      text-shadow: none;
+      padding: 5px 10px;
+    }
+
+.conference img.banner {
+  border-left: 4px solid #69bff9;
+  border-right: 4px solid #69bff9;
+  border-bottom: 4px solid #69bff9;
+  -webkit-border-bottom-right-radius: 4px;
+  -webkit-border-bottom-left-radius: 4px;
+  -moz-border-radius-bottomright: 4px;
+  -moz-border-radius-bottomleft: 4px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+
+.conference h1 {
+  color: #fff;
+  margin: 15px 0 25px 0;
+  font-family: "hooligan";
+  font-weight: 400;
+  font-size: 45px;
+}
+
+.conference p {
+  font-size: 16px;
+  line-height: 1.6em;
+}
+
+.conference .section {
+  background: #fff;
+  margin: 4em 0;
+  padding: 2em;
+  border: 4px solid #69bff9;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+
+  .conference ul.buttons {
+    width: 70%;
+    margin: 4em auto 0 auto;
+  }
+
+    .conference .buttons li {
+      list-style: none;
+      float: left;
+      margin: 0 3em;
+    }
+
+      .conference .buttons li a {
+        display: block;
+        width: 223px;
+        height: 121px;
+        text-indent: -9999em;
+      }
+
+        .conference li#scholarships a {
+          background-image: url("/images/conf/scholarships.jpg");
+        }
+
+        .conference li#registration a {
+          background-image: url("/images/conf/registration.jpg");
+        }
+
+.conference .section.top { margin-top: 4em; }
+
+.conference #youth {
+  padding-top: 223px;
+  background: #fff url("/images/conf/youth.jpg") no-repeat;
+}
+
+.conference #information {
+  padding-top: 265px;
+  background: #fff url("/images/conf/information.jpg") no-repeat;
+}
+
+  .conference #information ul {
+    width: 68%;
+    margin-top: 1.5em;
+  }
+
+    .conference #information li   {
+      float: left;
+      width: 50%;
+      font-size: 14px;
+      line-height: 1.6em;
+      margin-bottom: 4px;
+    }
+
+.conference #speakers {
+  padding-top: 268px;
+  background: #fff url("/images/conf/speakers.jpg") no-repeat;
+}
+
+.conference #sessions {
+  padding-top: 233px;
+  background: #fff url("/images/conf/sessions.jpg") no-repeat;
+}
+
+.conference #agenda {
+  padding-top: 244px;
+  background: #fff url("/images/conf/agenda.jpg") no-repeat;
+}
+
+  .conference #agenda p.btn-wrap {
+    margin: 1em 0 0 0;
+    text-align: center;
+  }
+
+.conference #venue {
+  padding-top: 258px;
+  background: #fff url("/images/conf/venue.jpg") no-repeat;
+}
+
