@@ -6,15 +6,33 @@ module.exports = function(grunt) {
   // Project configuration.
   grunt.initConfig({
     concat: {
-      dist: {
-        src: ['stylesheets/components/bootstrap.min.css', 'stylesheets/components/base.css', 'stylesheets/pages/*.css'],
-        dest: 'stylesheets/style.css'
+      conference: {
+        src: ['stylesheets/components/bootstrap.min.css', 'stylesheets/components/base.css', 'stylesheets/pages/conference/*.css'],
+        dest: 'stylesheets/conference.css'
+      },
+
+      summits: {
+        src: ['stylesheets/components/bootstrap.min.css', 'stylesheets/components/base.css', 'stylesheets/pages/summits/*.css'],
+        dest: 'stylesheets/summits.css'
       }
     },
+
     cssmin: {
-      dist: {
-        src: ['stylesheets/style.css'],
-        dest: 'stylesheets/style.min.css'
+      conference: {
+        src: ['stylesheets/conference.css'],
+        dest: 'stylesheets/dist/conference.min.css'
+      },
+
+      summits: {
+        src: ['stylesheets/summits.css'],
+        dest: 'stylesheets/dist/summits.min.css'
+      }
+    },
+
+    watch: {
+      css: {
+        files: ["stylesheets/**/*.css"],
+        tasks: "concat cssmin"
       }
     }
   });
