@@ -1,3 +1,7 @@
+body {
+  background: #222 url('/images/conf/gun_metal.png') repeat;
+}
+
 .navbar.subnav {
 }
 
