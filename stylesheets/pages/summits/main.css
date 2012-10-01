@@ -1,0 +1,148 @@
+
+body {
+  background: #e4fdff;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "nimbus-sans-condensed", sans-serif;
+}
+
+.summitsWrap {
+  margin: 25px auto;
+  background: #fff;
+  border: 1px solid #bbb;
+}
+
+.summitsWrap .span11 {
+  width: 900px;
+}
+
+.summitsWrap .masthead {
+  width: 940px;
+  height: 162px;
+  background: url('/images/summits/masthead.jpg');
+  border-bottom: 1px solid #bbb;
+}
+
+.summits h2 {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+}
+
+.summits p {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: "freight-sans-pro", sans-serif;
+}
+
+.summits .section {
+  padding: 20px;
+}
+
+.summits .section .small {
+  width: 420px;
+  text-align: center;
+}
+
+  .summits .section .small a.btn {
+    width: auto;
+    margin: 20px auto 0 auto;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: "freight-sans-pro", sans-serif;
+    padding: 6px 15px;
+  }
+
+.summits #featured {
+  border: 1px solid #bbb;
+}
+
+.tableGrid .span6 {
+  width: 440px;
+}
+
+.table {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: "freight-sans-pro", sans-serif;
+  border: 1px solid #bbb;
+}
+
+  .table .tr {
+    border-bottom: 1px solid #bbb;
+  }
+
+    .table .tr.alt {
+      background: #f5feff;
+    }
+
+    .table .tr.last {
+      border-bottom: none;
+    }
+
+    .table .td {
+      float: left;
+      padding: 8px;
+    }
+
+      .table .td.date {
+        width: 25%;
+        line-height: 1.2;
+      }
+
+        .table .td.date span {
+          display: block;
+          font-weight: 700;
+        }
+
+      .table .td.location {
+        width: 35%;
+        line-height: 2.5;
+      }
+
+      .table .td.venue {
+        width: 40%;
+        line-height: 1.2;
+      }
+
+        .table .td.venue span {
+          display: block;
+          color: #888;
+        }
+
+.summits ul {
+  margin: 0 0 0 20px;
+  list-style-position: outside;
+}
+
+.summits li {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: "freight-sans-pro", sans-serif;
+  margin: 8px 0;
+}
+
+.summits p.cite {
+  color: #888;
+  font-size: 14px;
+  margin: 15px 0 15px 20px;
+}
+
+/* IE 8 */
+
+.ie8 .summits, .ie7 .summits {
+  margin-left: 0;
+}
+
+.ie8 .summits .section .small, .ie7 .summits .section .small {
+  width: 418px;
+}
+
+.ie7 .summits .section .small {
+  width: 410px;
+}
