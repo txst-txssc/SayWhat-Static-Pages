@@ -369,6 +369,10 @@ h1, h2, h3, h4, h5 {
   width: 900px;
 }
 
+.summitsWrap .span6.video {
+  width: 500px;
+}
+
 .summitsWrap .masthead {
   width: 940px;
   height: 162px;
