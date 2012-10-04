@@ -9,4 +9,6 @@ $('document').ready(function() {
 
   $('.small').fadeIn('fast');
 
+  $('.dropdown-toggle').dropdown();
+
 });
